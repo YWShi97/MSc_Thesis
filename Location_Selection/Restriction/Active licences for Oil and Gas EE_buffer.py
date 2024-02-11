@@ -59,5 +59,5 @@ ax.set_title("Buffered @500m")
 ax.set_xlabel("X")
 ax.set_ylabel("Y")
 
-# Plot
+# Display the plot
 plt.show()

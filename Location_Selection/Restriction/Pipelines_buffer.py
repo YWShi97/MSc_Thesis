@@ -45,6 +45,7 @@ output_shapefile_path = os.path.join(output_folder_path, "buffered_data.shp")
 buffered_data.to_file(output_shapefile_path)
 
 
+# Create a plot to show the buffered region
 fig, ax = plt.subplots(figsize=(10, 10))
 
 # Plot the original region
